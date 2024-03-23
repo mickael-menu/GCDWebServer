@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "GCDWebServer",
+    name: "ReadiumGCDWebServer",
     platforms: [.iOS(.v11)],
     products: [
-        .library(name: "GCDWebServer", targets: ["GCDWebServer"]),
+        .library(name: "ReadiumGCDWebServer", targets: ["ReadiumGCDWebServer"]),
     ],
     targets: [
         .target(
-            name: "GCDWebServer",
+            name: "ReadiumGCDWebServer",
             path: "GCDWebServer",
             cSettings: [
                 .define("SWIFT_PACKAGE")
