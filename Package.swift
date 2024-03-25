@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ReadiumGCDWebServer",
+    name: "GCDWebServer",
     platforms: [.iOS(.v11)],
     products: [
         .library(name: "ReadiumGCDWebServer", targets: ["ReadiumGCDWebServer"]),
